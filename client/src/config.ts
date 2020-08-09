@@ -1,10 +1,10 @@
-// TODO: Once your application is deployed, copy an API id here so that the frontend could interact with it
-const apiId = '...'
+// using a Document DB in US-EAST-1
+const apiId = 'bi72prtks7'
 export const apiEndpoint = `https://${apiId}.execute-api.us-east-1.amazonaws.com/dev`
 
+// using AUTH0 async
 export const authConfig = {
-  // TODO: Create an Auth0 application and copy values from it into this map
-  domain: '...',            // Auth0 domain
-  clientId: '...',          // Auth0 client id
+  domain: 'papp-udacity.eu.auth0.com',
+  clientId: 'xgV50t0uPEI6sA8zQdPJKOwdO86B2lu9',   
   callbackUrl: 'http://localhost:3000/callback'
 }
